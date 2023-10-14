@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import javafx.scene.control.TreeTableColumn?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="780.0" prefWidth="1127.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.final_coursework.controller.ReturnController">
+   <children>
+      <Text fill="#3f1d38" layoutX="525.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Return">
+         <font>
+            <Font name="Brush Script MT Italic" size="34.0" />
+         </font>
+      </Text>
+      <JFXTextField layoutX="100.0" layoutY="70.0" onAction="#empIDOnAction" prefHeight="31.0" prefWidth="190.0" />
+      <JFXButton layoutX="965.0" layoutY="61.0" onAction="#updateOnAction" prefHeight="42.0" prefWidth="136.0" style="-fx-background-color: &quot;4D3C77&quot;;" text="Update" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXTreeTableView fx:id="tblOrderDetails" layoutX="23.0" layoutY="111.0" prefHeight="577.0" prefWidth="1081.0">
+         <columns>
+            <TreeTableColumn fx:id="colItemCode" prefWidth="102.0" text="item_code" />
+            <TreeTableColumn fx:id="colDescription" prefWidth="152.0" text="description" />
+            <TreeTableColumn fx:id="colQty" prefWidth="85.0" text="qty" />
+            <TreeTableColumn fx:id="colUnitPrice" prefWidth="108.0" text="unit_price" />
+            <TreeTableColumn fx:id="colDate" prefWidth="149.0" text="date" />
+            <TreeTableColumn fx:id="colDiscount" prefWidth="120.0" text="discount" />
+            <TreeTableColumn fx:id="colType" minWidth="0.0" prefWidth="79.0" text="type" />
+            <TreeTableColumn fx:id="colSize" minWidth="5.0" prefWidth="102.0" text="size" />
+            <TreeTableColumn fx:id="colAmount" minWidth="5.0" prefWidth="83.0" text="amount" />
+            <TreeTableColumn fx:id="colOption" minWidth="5.0" prefWidth="105.0" text="Option" />
+         </columns>
+      </JFXTreeTableView>
+      <Text layoutX="22.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Emp_Id :">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <JFXTextField layoutX="371.0" layoutY="71.0" onAction="#qtyOnAction" prefHeight="31.0" prefWidth="190.0" />
+      <Text layoutX="317.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Qty :">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <JFXButton layoutX="817.0" layoutY="61.0" onAction="#ClearOnAction" prefHeight="42.0" prefWidth="136.0" style="-fx-background-color: &quot;4D3C77&quot;;" text="Clear" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="965.0" layoutY="708.0" onAction="#returnOnAction" prefHeight="42.0" prefWidth="136.0" style="-fx-background-color: &quot;4D3C77&quot;;" text="Return" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <Text layoutX="23.0" layoutY="744.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total :">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="total" layoutX="82.0" layoutY="744.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0.0">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

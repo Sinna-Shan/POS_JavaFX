@@ -1,4 +1,8 @@
-.root{
-    fx-background-image : url("Final_coursework/src/main/resources/img/background.jpg");
+.mainForm{
+    fx-background-image : url("@../img/bckg.png");
     fx-background-size : cover;
+}
+
+.label {
+	-fx-text-fill: WHITE;
 }

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import javafx.scene.control.TreeTableColumn?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="780.0" prefWidth="1127.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.final_coursework.controller.OrderDetailController">
+   <children>
+      <Text fill="#3f1d38" layoutX="491.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Order Details">
+         <font>
+            <Font name="Brush Script MT Italic" size="34.0" />
+         </font>
+      </Text>
+      <JFXTextField layoutX="23.0" layoutY="69.0" onAction="#searchOnAction" prefHeight="31.0" prefWidth="293.0" />
+      <ImageView fitHeight="42.0" fitWidth="44.0" layoutX="322.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/search-50.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="965.0" layoutY="61.0" onAction="#refreshOnAction" prefHeight="42.0" prefWidth="136.0" style="-fx-background-color: &quot;4D3C77&quot;;" text="Refresh" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXTreeTableView fx:id="tblOrderDetails" layoutX="23.0" layoutY="111.0" prefHeight="308.0" prefWidth="1081.0">
+         <columns>
+            <TreeTableColumn fx:id="colOrderId" prefWidth="95.00003051757812" text="order Id" />
+            <TreeTableColumn fx:id="colDate" prefWidth="112.0" text="date" />
+            <TreeTableColumn fx:id="colTotal" prefWidth="131.0" text="total" />
+            <TreeTableColumn fx:id="colCustName" prefWidth="147.0" text="customer_name" />
+            <TreeTableColumn fx:id="colContact" prefWidth="129.0" text="contact" />
+            <TreeTableColumn fx:id="colEmail" prefWidth="142.0" text="email" />
+            <TreeTableColumn fx:id="colEmployee" prefWidth="157.0" text="emploee" />
+            <TreeTableColumn fx:id="colarrears" minWidth="5.0" prefWidth="166.0" text="arrears" />
+         </columns>
+      </JFXTreeTableView>
+      <JFXTreeTableView fx:id="tblOrderItem" layoutX="23.0" layoutY="434.0" prefHeight="308.0" prefWidth="1081.0">
+         <columns>
+            <TreeTableColumn fx:id="colItemCode" prefWidth="95.00003051757812" text="Item_Code" />
+            <TreeTableColumn fx:id="colDesc" prefWidth="131.0" text="Description" />
+            <TreeTableColumn fx:id="colQty" prefWidth="112.0" text="qty" />
+            <TreeTableColumn minWidth="0.0" prefWidth="0.0" text="Column X" />
+            <TreeTableColumn fx:id="colUnitPrice" prefWidth="141.0" text="unit price" />
+            <TreeTableColumn fx:id="date" prefWidth="134.0" text="date" />
+            <TreeTableColumn fx:id="colDiscount" prefWidth="122.0" text="discount" />
+            <TreeTableColumn fx:id="colType" prefWidth="121.0" text="type" />
+            <TreeTableColumn fx:id="colSize" prefWidth="101.0" text="size" />
+            <TreeTableColumn fx:id="colAmount" minWidth="5.0" prefWidth="122.0" text="amount" />
+         </columns>
+      </JFXTreeTableView>
+   </children>
+</AnchorPane>

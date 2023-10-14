@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.control.TreeTableColumn?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="780.0" prefWidth="1127.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.final_coursework.controller.PlaceOrderController">
+   <children>
+      <Text fill="#3f1d38" layoutX="496.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Place Order">
+         <font>
+            <Font name="Brush Script MT Italic" size="34.0" />
+         </font>
+      </Text>
+      <Text layoutX="63.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Emp_Id :">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="63.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Customer Name :">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="63.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Customer Contact :">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="63.0" layoutY="229.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Customer Email :">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="62.0" layoutY="271.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date :">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="62.0" layoutY="307.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Payment type :">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="561.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Item_Code :">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="561.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Description :">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="561.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Qty :">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="561.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selling Price :">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="560.0" layoutY="290.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Type :">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="827.0" layoutY="290.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Discount :">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="805.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Qty_On_Hand :">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="853.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Size :">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <JFXTextField fx:id="inpCusName" layoutX="209.0" layoutY="128.0" prefHeight="31.0" prefWidth="276.0">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="inpCusContact" layoutX="223.0" layoutY="168.0" prefHeight="31.0" prefWidth="262.0">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="inpCusEmail" layoutX="217.0" layoutY="204.0" prefHeight="31.0" prefWidth="269.0">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="inpDesc" layoutX="697.0" layoutY="130.0" prefHeight="31.0" prefWidth="221.0">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="inpQtyOnHand" layoutX="938.0" layoutY="167.0" onAction="#qtyOnHandAction" prefHeight="31.0" prefWidth="150.0">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="inpSell" layoutX="669.0" layoutY="209.0" prefHeight="31.0" prefWidth="150.0">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="inpType" layoutX="642.0" layoutY="259.0" prefHeight="31.0" prefWidth="150.0">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="inpSize" layoutX="902.0" layoutY="210.0" prefHeight="31.0" prefWidth="94.0">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="inpDiscount" layoutX="921.0" layoutY="261.0" prefHeight="31.0" prefWidth="150.0">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="inpSearch" layoutX="27.0" layoutY="356.0" onAction="#searchOnAction" prefHeight="31.0" prefWidth="293.0" />
+      <ImageView fitHeight="42.0" fitWidth="44.0" layoutX="326.0" layoutY="351.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/search-50.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="603.0" layoutY="348.0" onAction="#removeOrderOnAction" prefHeight="42.0" prefWidth="174.0" style="-fx-background-color: &quot;4D3C77&quot;;" text="Remove Order" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="785.0" layoutY="348.0" onAction="#clearOnAction" prefHeight="42.0" prefWidth="82.0" style="-fx-background-color: &quot;4D3C77&quot;;" text="Clear" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="875.0" layoutY="348.0" onAction="#updateOnAction" prefHeight="42.0" prefWidth="94.0" style="-fx-background-color: &quot;4D3C77&quot;;" text="Update" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="977.0" layoutY="348.0" onAction="#addToCartOnAction" prefHeight="42.0" prefWidth="128.0" style="-fx-background-color: &quot;4D3C77&quot;;" text="Add to Cart" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="973.0" layoutY="726.0" onAction="#placeOrderOnAction" prefHeight="42.0" prefWidth="136.0" style="-fx-background-color: &quot;4D3C77&quot;;" text="Place Order" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <Text layoutX="27.0" layoutY="752.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total :">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="242.0" layoutY="752.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Discount :">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="496.0" layoutY="752.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Balance :">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="723.0" layoutY="752.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amount">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="lblTotal" layoutX="81.0" layoutY="752.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0.0">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="lblDiscount" layoutX="328.0" layoutY="753.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0.0">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="lblBalance" layoutX="573.0" layoutY="752.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0.0">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="lblAmount" layoutX="793.0" layoutY="753.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0.0">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <JFXTreeTableView fx:id="tblPlaceOrder" layoutX="27.0" layoutY="398.0" prefHeight="316.0" prefWidth="1081.0">
+         <columns>
+            <TreeTableColumn fx:id="colItemCode" prefWidth="95.00003051757812" text="Item_Code" />
+            <TreeTableColumn fx:id="colDesc" prefWidth="131.0" text="Description" />
+            <TreeTableColumn minWidth="0.0" prefWidth="0.0" text="Column X" />
+            <TreeTableColumn fx:id="colQty" prefWidth="75.0" text="Qty" />
+            <TreeTableColumn fx:id="colUnitPrice" prefWidth="104.0" text="Unit Price" />
+            <TreeTableColumn fx:id="colDate" prefWidth="142.0" text="Date" />
+            <TreeTableColumn fx:id="colDiscount" minWidth="0.0" prefWidth="140.0" text="discount" />
+            <TreeTableColumn fx:id="colType" prefWidth="81.0" text="type" />
+            <TreeTableColumn fx:id="colSize" prefWidth="91.0" text="size" />
+            <TreeTableColumn fx:id="colAmount" prefWidth="109.0" text="Amount" />
+            <TreeTableColumn fx:id="colOption" prefWidth="112.0" text="option" />
+         </columns>
+      </JFXTreeTableView>
+      <Text layoutX="884.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Order Id :">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="lblOrderId" layoutX="969.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ORD_0001">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <JFXComboBox fx:id="cmbEmpId" layoutX="163.0" layoutY="91.0" prefHeight="31.0" prefWidth="194.0" promptText="Select" />
+      <JFXComboBox fx:id="cmbItemCode" layoutX="680.0" layoutY="91.0" prefHeight="31.0" prefWidth="194.0" promptText="Select" />
+      <RadioButton fx:id="rbtnCash" layoutX="190.0" layoutY="288.0" mnemonicParsing="false" onAction="#pay" text="cash">
+         <toggleGroup>
+            <ToggleGroup fx:id="payment" />
+         </toggleGroup>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rbtnCard" layoutX="282.0" layoutY="288.0" mnemonicParsing="false" onAction="#pay" text="card" toggleGroup="$payment">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </RadioButton>
+      <Label fx:id="lblDate" layoutX="129.0" layoutY="254.0" text="1999-01-29">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblQty" layoutX="624.0" layoutY="174.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

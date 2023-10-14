@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.TreeTableColumn?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="780.0" prefWidth="1127.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.final_coursework.controller.SupplierController">
+   <children>
+      <Text fill="#3f1d38" layoutX="536.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Supplier">
+         <font>
+            <Font name="Brush Script MT Italic" size="34.0" />
+         </font>
+      </Text>
+      <Text layoutX="63.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sup_id :">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="63.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Title :">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="61.0" layoutY="316.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Company :">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="64.0" layoutY="218.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name :">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="63.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact :">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <JFXTextField fx:id="inpName" layoutX="131.0" layoutY="193.0" prefHeight="31.0" prefWidth="221.0" />
+      <JFXTextField fx:id="inpContact" layoutX="150.0" layoutY="240.0" prefHeight="31.0" prefWidth="212.0" />
+      <JFXTextField fx:id="inpSearch" layoutX="27.0" layoutY="407.0" onAction="#searchOnAction" prefHeight="31.0" prefWidth="293.0" />
+      <ImageView fitHeight="42.0" fitWidth="44.0" layoutX="326.0" layoutY="402.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/search-50.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="741.0" layoutY="399.0" onAction="#printOnAction" prefHeight="42.0" prefWidth="174.0" style="-fx-background-color: &quot;4D3C77&quot;;" text="Print" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="923.0" layoutY="399.0" onAction="#clearOnAction" prefHeight="42.0" prefWidth="82.0" style="-fx-background-color: &quot;4D3C77&quot;;" text="Clear" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="1013.0" layoutY="399.0" onAction="#updateOnAction" prefHeight="42.0" prefWidth="94.0" style="-fx-background-color: &quot;4D3C77&quot;;" text="Update" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField fx:id="inpCompany" layoutX="178.0" layoutY="288.0" prefHeight="31.0" prefWidth="202.0" />
+      <JFXTreeTableView fx:id="tblSupplier" layoutX="27.0" layoutY="448.0" prefHeight="318.0" prefWidth="1081.0">
+         <columns>
+            <TreeTableColumn fx:id="colSuplierID" prefWidth="112.0" text="Suplier ID" />
+            <TreeTableColumn fx:id="colTitle" prefWidth="140.0" text="Title" />
+            <TreeTableColumn fx:id="colName" prefWidth="209.0" text="Name" />
+            <TreeTableColumn fx:id="colCompany" prefWidth="228.0" text="Company" />
+            <TreeTableColumn fx:id="colContact" prefWidth="213.0" text="Contact" />
+            <TreeTableColumn fx:id="colOption" minWidth="5.0" prefWidth="178.0" text="option" />
+         </columns>
+      </JFXTreeTableView>
+      <Text fx:id="supId" layoutX="149.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <JFXTreeTableView fx:id="tblItem" layoutX="517.0" layoutY="63.0" prefHeight="325.0" prefWidth="589.0">
+         <columns>
+            <TreeTableColumn fx:id="colItemCode" prefWidth="104.0" text="item_code" />
+            <TreeTableColumn fx:id="colDescription" prefWidth="328.0" text="Ddescription" />
+            <TreeTableColumn fx:id="colQty" prefWidth="156.0" text="Qty" />
+         </columns>
+      </JFXTreeTableView>
+      <JFXButton layoutX="559.0" layoutY="399.0" onAction="#addOnAction" prefHeight="42.0" prefWidth="174.0" style="-fx-background-color: &quot;4D3C77&quot;;" text="Add" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXComboBox fx:id="titleCombo" layoutX="131.0" layoutY="147.0" onAction="#combTitleOnAction" prefHeight="31.0" prefWidth="132.0" promptText="Select Title" />
+   </children>
+   <cursor>
+      <Cursor fx:constant="HAND" />
+   </cursor>
+</AnchorPane>
