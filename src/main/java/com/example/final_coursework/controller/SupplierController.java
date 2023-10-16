@@ -313,6 +313,7 @@ public class SupplierController implements Initializable {
                 int num = Integer.parseInt(rst.getString(1).split("_")[1]);
                 num++;
                 supId.setText(String.format("sup_%04d",num));
+
             }else{  
                 supId.setText("sup_0001");
             }

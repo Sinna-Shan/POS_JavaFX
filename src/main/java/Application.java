@@ -7,7 +7,7 @@ import java.io.IOException;
 public class Application extends javafx.application.Application {
     @Override
     public void start(Stage stage) throws IOException {
-        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("view/landingPage.fxml"))));
+        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("view/selectUser.fxml"))));
         stage.setTitle("Shopify");
         stage.setResizable(false);
         stage.show();

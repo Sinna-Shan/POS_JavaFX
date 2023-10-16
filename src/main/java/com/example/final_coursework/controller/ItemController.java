@@ -138,7 +138,8 @@ public class ItemController implements Initializable {
 
             if(pstm.executeUpdate()>0){
                 new Alert(Alert.AlertType.INFORMATION,"Item Add Successfully !").show();
-                connection.commit();
+                tblItems.refresh();
+                loadItemTable();
             }
         } catch (ClassNotFoundException | SQLException e) {
             new Alert(Alert.AlertType.ERROR,e.getMessage()).show();

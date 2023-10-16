@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="paneUserLogin" prefHeight="780.0" prefWidth="1220.0" style="-fx-background-image: url(&quot;img/bg.jpg&quot;); -fx-background-size: cover; -fx-background-position: center;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.final_coursework.controller.UserLoginController">
+   <children>
+      <AnchorPane layoutX="317.0" layoutY="66.0" prefHeight="636.0" prefWidth="587.0" style="-fx-background-radius: 30; -fx-background-color: white;">
+         <children>
+            <ImageView fitHeight="77.0" fitWidth="83.0" layoutX="176.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/shopping-bag.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="262.0" layoutY="34.0" text="Shopify" textFill="#4d3c77">
+               <font>
+                  <Font name="Brush Script MT Italic" size="42.0" />
+               </font>
+            </Label>
+            <Label layoutX="262.0" layoutY="83.0" text="You name it, We have it." textFill="#4d3c77">
+               <font>
+                  <Font name="Brush Script MT Italic" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="239.0" layoutY="144.0" text="User login" textFill="#4d3c77">
+               <font>
+                  <Font name="Bell MT" size="24.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="inpUserName" focusColor="#4d3c77" layoutX="156.0" layoutY="229.0" prefHeight="31.0" prefWidth="288.0" />
+            <ImageView fitHeight="31.0" fitWidth="24.0" layoutX="121.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/user-mini.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="24.0" layoutX="118.0" layoutY="312.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/password-mini.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgShow" fitHeight="31.0" fitWidth="24.0" layoutX="457.0" layoutY="312.0" onMouseClicked="#showPassword" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/hide-password-24.png" />
+               </image>
+            </ImageView>
+            <JFXButton layoutX="191.0" layoutY="430.0" onAction="#loginOnAction" prefHeight="48.0" prefWidth="205.0" style="-fx-background-color: #4D3C77; -fx-background-radius: 50;" text="Log in" textFill="WHITE">
+               <font>
+                  <Font name="Brush Script MT Italic" size="24.0" />
+               </font>
+            </JFXButton>
+            <ImageView fx:id="imgBack" fitHeight="48.0" fitWidth="46.0" layoutX="26.0" layoutY="34.0" onMouseClicked="#goBack" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/back.png" />
+               </image>
+            </ImageView>
+            <JFXButton layoutX="222.0" layoutY="353.0" onAction="#forgetPassword" text="forget password ?" />
+            <JFXPasswordField fx:id="inpPassword" layoutX="155.0" layoutY="309.0" prefHeight="31.0" prefWidth="288.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

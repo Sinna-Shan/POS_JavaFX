@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.chart.PieChart?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -32,6 +34,37 @@
       <Label fx:id="date" layoutX="977.0" layoutY="24.0" text="1999-01-29" textFill="#4d3c77">
          <font>
             <Font size="24.0" />
+         </font>
+      </Label>
+      <PieChart fx:id="pieChart" layoutX="38.0" layoutY="199.0" prefHeight="415.0" prefWidth="480.0" />
+      <JFXButton layoutX="862.0" layoutY="385.0" onAction="#dailyReport" prefHeight="55.0" prefWidth="265.0" style="-fx-background-color: #3F1D38;" text="Daily Reports" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="862.0" layoutY="446.0" onAction="#monthlyReport" prefHeight="55.0" prefWidth="265.0" style="-fx-background-color: #4D3C77;" text="Monthly Reports" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="862.0" layoutY="508.0" onAction="#yearlyReport" prefHeight="55.0" prefWidth="265.0" style="-fx-background-color: #A2678A;" text="Yearly Reports" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="531.0" layoutY="199.0" text="Gents" textFill="#3f1d38">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="531.0" layoutY="228.0" text="Ladies" textFill="#a2678a">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="531.0" layoutY="259.0" text="Kids" textFill="#e19898">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
          </font>
       </Label>
    </children>

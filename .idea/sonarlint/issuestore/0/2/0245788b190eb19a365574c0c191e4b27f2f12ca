@@ -1,0 +1,80 @@
+
+h	java:S112“"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÂŞ½•³1
+h	java:S112’"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÃŞ½•³1
+h	java:S112¨"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÃŞ½•³1
+h	java:S112ª"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÃŞ½•³1
+h	java:S112»"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÃŞ½•³1
+h	java:S112Ê"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÃŞ½•³1
+Q
+java:S3740?"/Provide the parametrized type for this generic.(…ú§¥ùÿÿÿÿ8ÃŞ½•³1
+L
+java:S3740B"/Provide the parametrized type for this generic.(²Æö¾8ÃŞ½•³1
+Q
+java:S3740E"/Provide the parametrized type for this generic.(Ú¢éÕùÿÿÿÿ8ÃŞ½•³1
+L
+java:S3740H"/Provide the parametrized type for this generic.(£Ğ¾©8ÃŞ½•³1
+L
+java:S3740K"/Provide the parametrized type for this generic.(‘ÖŒÌ8ÃŞ½•³1
+Q
+java:S3740N"/Provide the parametrized type for this generic.(†İŠÒûÿÿÿÿ8ÃŞ½•³1
+L
+java:S3740Q"/Provide the parametrized type for this generic.(ˆÜ™¦8ÃŞ½•³1
+Q
+java:S3740T"/Provide the parametrized type for this generic.(ıø–»şÿÿÿÿ8ÃŞ½•³1
+L
+java:S3740W"/Provide the parametrized type for this generic.(Ñ•Öœ8ÃŞ½•³1
+Q
+java:S3740Z"/Provide the parametrized type for this generic.(Èâ–úÿÿÿÿ8ÃŞ½•³1
+M
+java:S1066Š"/Merge this if statement with the enclosing one.(Â—«8ÄŞ½•³1
+K
+java:S1604Í"(Make this anonymous inner class a lambda(‚æ²Áùÿÿÿÿ8ÅŞ½•³1
+
+java:S1488Ğ"\Immediately return this expression instead of assigning it to the temporary variable "flag".(»àÜòøÿÿÿÿ8ÅŞ½•³1
+f
+java:S2259’"HA "NullPointerException" could be thrown; "connection" is nullable here.(İÌï8äß½•³1
+k
+java:S2259•"HA "NullPointerException" could be thrown; "connection" is nullable here.(Øîğ€ıÿÿÿÿ8äß½•³1
+r
+java:S2095€"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(œïïµøÿÿÿÿ8äß½•³1
+m
+java:S2095±"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(†Å·¼8äß½•³1
+m
+java:S2095ï"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ö’óã8äß½•³1
+l
+java:S2095Ã"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(šú /8äß½•³1
+w	java:S116*"VRename this field "ItemDescInp" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿•ã”ûÿÿÿÿ8åß½•³1
+£
+java:S1186b"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(÷ø¬ñşÿÿÿÿ8åß½•³1
+
+java:S1186e"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(±¨¨V8æß½•³1
+
+java:S1186h"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æé˜ï8æß½•³1
+¤
+java:S1186¤"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ü°ëÿÿÿÿÿÿ8æß½•³1
+Ÿ
+java:S1186¬"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(™Î·¯8æß½•³1
+¤
+java:S1186¯"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÌŸúôúÿÿÿÿ8æß½•³1
+Ÿ
+java:S1186²"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(çîÔß8æß½•³1
+¤
+java:S1186µ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(çÀüÿÿÿÿ8æß½•³1
+O
+java:S1172k"2Remove this unused method parameter "actionEvent".(ªÖ¨Ø8êß½•³1
+d
+java:S1858n"B"getValue" returns a string, there's no need to call "toString()".(ï¦ÜÖıÿÿÿÿ8êß½•³1
+_
+java:S1858s"B"getValue" returns a string, there's no need to call "toString()".(îüœã8ëß½•³1
+_
+java:S1858t"B"getValue" returns a string, there's no need to call "toString()".(¦£š8ëß½•³1
+_
+java:S1858z"B"getValue" returns a string, there's no need to call "toString()".(Şíœî8ìß½•³1
+S
+java:S1481x"1Remove this unused "supplierItem" local variable.(áİÃ«øÿÿÿÿ8ìß½•³1
+P
+java:S1172§"2Remove this unused method parameter "actionEvent".(µ•Ã‚8òß½•³1
+J
+java:S1602Ì",Remove useless curly braces around statement(‰ä¹É8öß½•³1
+c
+java:S2147©"ECombine this catch with the one at line 295, which has the same body.(É®£8ûß½•³1
