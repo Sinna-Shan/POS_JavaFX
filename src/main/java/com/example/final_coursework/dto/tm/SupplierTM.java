@@ -1,4 +1,4 @@
-package com.example.final_coursework.model.tm;
+package com.example.final_coursework.dto.tm;
 
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.datamodels.treetable.RecursiveTreeObject;

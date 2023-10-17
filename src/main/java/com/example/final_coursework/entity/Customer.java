@@ -1,4 +1,4 @@
-package com.example.final_coursework.model;
+package com.example.final_coursework.entity;
 
 import lombok.*;
 

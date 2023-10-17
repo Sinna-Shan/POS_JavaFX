@@ -1,23 +1,23 @@
-package com.example.final_coursework.model.tm;
+package com.example.final_coursework.dto.tm;
 
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.datamodels.treetable.RecursiveTreeObject;
 import lombok.*;
 
-@AllArgsConstructor
 @NoArgsConstructor
 @Getter
 @Setter
+@AllArgsConstructor
 @ToString
-public class ItemTM extends RecursiveTreeObject<ItemTM> {
-    String itemCode;
-    String supplierID;
+public class CartTm extends RecursiveTreeObject<CartTm> {
+    String item_code;
     String description;
     int qty;
-    double buyPrice;
-    double sellPrice;
+    double unitPrice;
+    String date;
+    double discount;
     String type;
     String size;
-    double profit;
+    double amount;
     JFXButton btnDelete;
 }

@@ -1,8 +1,8 @@
 package com.example.final_coursework.controller;
 
 import com.example.final_coursework.db.DBConnection;
-import com.example.final_coursework.model.tm.OrderDetailTM;
-import com.example.final_coursework.model.tm.OrderItemTM;
+import com.example.final_coursework.dto.tm.OrderDetailTM;
+import com.example.final_coursework.dto.tm.OrderItemTM;
 import com.jfoenix.controls.JFXTreeTableView;
 import com.jfoenix.controls.RecursiveTreeItem;
 import com.jfoenix.controls.datamodels.treetable.RecursiveTreeObject;

@@ -1,0 +1,14 @@
+
+g	java:S112w"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8…‰¿¹³1
+h	java:S112‰"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8…‰¿¹³1
+h	java:S112°"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8…‰¿¹³1
+r
+java:S2095¤"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(şÁ†¸úÿÿÿÿ8 ‰¿¹³1
+q
+java:S2095h"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(úÚÉäüÿÿÿÿ8Î‰ˆº³1
+q
+java:S2095Q"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ä¸€ÿÿÿÿÿ8Î‰ˆº³1
+¤
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ç’Ãğıÿÿÿÿ8¡‰¿¹³1
+_
+java:S1858n"B"getValue" returns a string, there's no need to call "toString()".(ƒõ‘8¨‰¿¹³1

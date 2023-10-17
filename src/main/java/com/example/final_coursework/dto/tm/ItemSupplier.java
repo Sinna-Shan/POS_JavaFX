@@ -1,4 +1,4 @@
-package com.example.final_coursework.model;
+package com.example.final_coursework.dto.tm;
 
 import lombok.*;
 
@@ -7,8 +7,7 @@ import lombok.*;
 @Getter
 @Setter
 @ToString
-public class SupItem {
+public class ItemSupplier {
+    String id;
     String itemCode;
-    String description;
-    int qty;
 }

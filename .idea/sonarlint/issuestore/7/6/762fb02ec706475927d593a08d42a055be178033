@@ -1,0 +1,9 @@
+
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8º£¡³1
+g	java:S112""FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Éå¦¡³1
+T
+java:S1172"2Remove this unused method parameter "actionEvent".(Á²©õüÿÿÿÿ8“Ú¡³1
+O
+java:S1172"2Remove this unused method parameter "actionEvent".(ê…èÍ8Şå¦¡³1
+R
+java:S1128	"0Remove this unused import 'javafx.stage.Window'.(Ñ€Ş‡øÿÿÿÿ8öÄŸ¡³1

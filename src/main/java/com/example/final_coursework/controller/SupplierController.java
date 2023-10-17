@@ -1,10 +1,10 @@
 package com.example.final_coursework.controller;
 
 import com.example.final_coursework.db.DBConnection;
-import com.example.final_coursework.model.Supplier;
-import com.example.final_coursework.model.SupItem;
-import com.example.final_coursework.model.tm.SupItemTM;
-import com.example.final_coursework.model.tm.SupplierTM;
+import com.example.final_coursework.entity.Supplier;
+import com.example.final_coursework.entity.SupItem;
+import com.example.final_coursework.dto.tm.SupItemTM;
+import com.example.final_coursework.dto.tm.SupplierTM;
 import com.jfoenix.controls.*;
 import com.jfoenix.controls.datamodels.treetable.RecursiveTreeObject;
 import javafx.beans.value.ChangeListener;

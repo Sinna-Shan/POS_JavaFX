@@ -44,3 +44,17 @@ Psrc/main/java/com/example/final_coursework/controller/OrderDetailController.jav
 Ssrc/main/java/com/example/final_coursework/controller/forgetPasswordController.java,4\0\40ddeed619f328f9aa083200a26788b975fb8809
 
 Osrc/main/java/com/example/final_coursework/controller/PlaceOrderController.java,9\e\9e100363b29995e0c46f3adc481f40a469e326b4
+{
+Ksrc/main/java/com/example/final_coursework/controller/SingUpController.java,f\8\f896df9545485a324bf97346db85cad9e25b14e6
+
+Osrc/main/java/com/example/final_coursework/controller/AdminLoginController.java,e\2\e299e6e1e40af05bc3e7b815025d6d6a700da521
+~
+Nsrc/main/java/com/example/final_coursework/controller/UserLoginController.java,f\7\f75b7ea6d7ff327deb8828b1531c856046fd72ee
+n
+>src/main/java/com/example/final_coursework/model/Supplier.java,2\0\200dc290ee4d654eee5c4a48bd4b0a12738682a8
+s
+Csrc/main/java/com/example/final_coursework/model/tm/SupplierTM.java,3\f\3fb3d310429e7e0bc10b1761c928fbee958f100d
+
+Osrc/main/java/com/example/final_coursework/controller/SelectUserController.java,7\6\762fb02ec706475927d593a08d42a055be178033
+}
+Msrc/main/java/com/example/final_coursework/controller/SupplierController.java,b\f\bf0c183d8bb21353c8217d8cdfb089a99750fefd

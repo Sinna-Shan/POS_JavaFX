@@ -1,6 +1,5 @@
-package com.example.final_coursework.model;
+package com.example.final_coursework.entity;
 
-import com.jfoenix.controls.JFXButton;
 import lombok.*;
 
 @NoArgsConstructor

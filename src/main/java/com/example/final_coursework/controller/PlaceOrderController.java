@@ -1,11 +1,10 @@
 package com.example.final_coursework.controller;
 
 import com.example.final_coursework.db.DBConnection;
-import com.example.final_coursework.model.Customer;
-import com.example.final_coursework.model.Order;
-import com.example.final_coursework.model.OrderDetail;
-import com.example.final_coursework.model.tm.CartTm;
-import com.example.final_coursework.model.tm.SupplierTM;
+import com.example.final_coursework.entity.Customer;
+import com.example.final_coursework.entity.Order;
+import com.example.final_coursework.entity.OrderDetail;
+import com.example.final_coursework.dto.tm.CartTm;
 import com.jfoenix.controls.*;
 import com.jfoenix.controls.datamodels.treetable.RecursiveTreeObject;
 import javafx.collections.FXCollections;

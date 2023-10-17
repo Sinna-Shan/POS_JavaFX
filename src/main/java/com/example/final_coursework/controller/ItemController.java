@@ -1,9 +1,9 @@
 package com.example.final_coursework.controller;
 
 import com.example.final_coursework.db.DBConnection;
-import com.example.final_coursework.model.Item;
-import com.example.final_coursework.model.tm.ItemSupplier;
-import com.example.final_coursework.model.tm.ItemTM;
+import com.example.final_coursework.entity.Item;
+import com.example.final_coursework.dto.tm.ItemSupplier;
+import com.example.final_coursework.dto.tm.ItemTM;
 import com.jfoenix.controls.*;
 import com.jfoenix.controls.datamodels.treetable.RecursiveTreeObject;
 import javafx.collections.FXCollections;
